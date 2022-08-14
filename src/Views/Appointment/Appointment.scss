@@ -1,0 +1,42 @@
+.appointment{
+    background-image: url(../../Assets/Desktop/Citabg.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__header{
+        display: flex;
+        justify-content: center;
+        color: white;
+        display: flex;
+        align-items: center;
+        height: 40vh;
+
+        h1{
+            font-size: 50px;
+            text-align: center;
+            padding-bottom: 3rem;
+        }
+    }
+
+    &__container{
+        background-color: white;
+        height: 40vh;
+        display: flex;
+
+        &__meet{
+            h1{
+                padding-left: 2rem;
+            }
+            &__individual{
+                display: flex;
+                padding: 2rem;
+
+                svg{
+                    color: red;
+                    margin-right: 2rem;
+                }
+            }
+        }
+    }
+}

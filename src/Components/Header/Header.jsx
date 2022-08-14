@@ -12,7 +12,9 @@ export const Header = () => {
                 <p>SASTRERIA SANTOS</p>
                 <h1>Arreglos y Confeccion</h1>
                 <button>VER SERVICIOS</button>
-                <img src={whatsapp} alt="whatsapp" />
+                <a href="https://api.whatsapp.com/send?phone=34699373874&text=Hola%20Muy%20Buenas!%20Podemos%20agendar%20una%20llamada?" target="_blank" rel="noreferrer">
+                    <img src={whatsapp} alt="whatsapp" />
+                </a>
             </div>
         </div>
     )

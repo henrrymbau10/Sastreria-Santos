@@ -23,6 +23,7 @@ export const Menu = styled.div`
   p {
     color: black;
     font-size: 16px;
+    padding: 1rem 0;
   }
 
   .p-menu {

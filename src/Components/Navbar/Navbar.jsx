@@ -3,6 +3,7 @@ import "./Navbar.scss"
 import logo from "../../Assets/Icons/Consuelo-Logo4-AV-Blanco.svg"
 import { Menu, MobileIcon, MobileIcon2 } from './NabvarItem';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from "react-router-dom"
 
 export const Navbar = () => {
 
@@ -17,7 +18,9 @@ export const Navbar = () => {
         <div className="navbar">
             <div className="navbar__container">
                 <div className="navbar__container__logo">
-                    <img src={logo} alt="logo" />
+                    <Link to="/">
+                        <img src={logo} alt="logo" />
+                    </Link>
                 </div>
                 <div className="navbar__container__list">
                     <li onClick={() => scrollTo(".servicios")}>SERVICIOS</li>
