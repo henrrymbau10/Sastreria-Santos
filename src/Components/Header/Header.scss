@@ -1,0 +1,43 @@
+.header{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(../../Assets/Desktop/Home.jpeg);
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        height: 80%;
+        padding: 0 2rem 0 2rem;
+
+        p{
+            font-size: 30px;
+        }
+
+        h1{
+            font-size: 50px;
+        }
+
+        img{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            position: fixed;
+            z-index: 20;
+            bottom: 2rem;
+            right: 2rem;
+        }
+
+        button{
+            cursor: pointer;
+            padding: 1rem 2rem;
+            color: white;
+            background-color: #B52D43;
+            width: 160px;
+            margin: 2rem 0
+        }
+    }
+}

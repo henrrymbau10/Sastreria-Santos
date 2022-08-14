@@ -1,0 +1,48 @@
+.navbar{
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        padding: 0 2rem 0 1rem;
+
+        &__mobile{
+            display: none;
+        }
+
+        &__logo{
+            img{
+                width: 100px;
+            }
+        }
+
+        &__list{
+            display: flex;
+            align-items: center;
+
+            li{
+                padding: 0 1rem;
+                cursor: pointer;
+            }
+
+            button{
+                color: white;
+                padding: 1rem 2rem;
+                background: transparent;
+                border: 1px solid white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width:859px){
+        &__container{
+            &__list{
+                display: none;
+            }
+            &__mobile{
+                display: block;
+            }
+        }
+    }
+}

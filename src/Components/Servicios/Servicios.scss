@@ -1,0 +1,52 @@
+.servicios {
+    background-image: url(../../Assets/Desktop/Serviciosbg.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+    &__container{
+        background: rgba(0, 0, 0, 0.6); // Make sure this color has an opacity of less than 1
+        backdrop-filter: blur(10px); // This be the blur
+        height: 100%;
+        width: 100%;
+        padding-top: 3rem;
+        color: white;
+
+        &__tittle{
+            text-align: center;
+            padding-bottom: 3rem;
+        }
+
+        &__general{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            &__individual{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0 4rem 3rem 4rem;
+            }
+        }
+
+        &__button{
+            display: flex;
+            justify-content: center;
+
+            button{
+                color: white;
+                padding: 1rem 2rem;
+                border: 1px solid white;
+                background: transparent;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width:859px){
+        background-image: url(../../Assets/Mobile/Servicios.jpeg)
+    }
+}

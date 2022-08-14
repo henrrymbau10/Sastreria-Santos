@@ -1,0 +1,158 @@
+.about{
+    &__container1{
+            background-image:url(../../Assets/Desktop/Experiencia2.jpeg);
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            object-fit: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+        &__section{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 4rem 0 4rem;
+
+            h1{
+                font-size: 42px;
+                width: 540px;
+                border-bottom: 1px solid white;
+                padding-bottom: 2rem;
+            }
+
+            p{
+                font-size: 18px;
+                width: 540px;
+                padding-top: 2rem;
+            }
+        }
+    }
+    &__container2{
+            background-image:url(../../Assets/Desktop/Calidad.jpeg);
+            background-repeat:no-repeat;
+            background-size: cover;
+            object-fit: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            background-attachment: fixed;
+
+        &__section{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 4rem 0 4rem;
+
+            h1{
+                font-size: 42px;
+                width: 540px;
+                border-bottom: 1px solid white;
+                padding-bottom: 2rem;
+            }
+
+            p{
+                font-size: 18px;
+                width: 540px;
+                padding-top: 2rem;
+            }
+        }
+    }
+    &__container3{
+        background-image:url(../../Assets/Desktop/Costura.jpeg);
+        background-repeat:no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-attachment: fixed;
+
+        &__section{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 4rem 0 4rem;
+
+            h1{
+                font-size: 42px;
+                width: 540px;
+                border-bottom: 1px solid white;
+                padding-bottom: 2rem;
+            }
+
+            p{
+                font-size: 18px;
+                width: 540px;
+                padding-top: 2rem;
+            }
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width:859px){
+        &__container1{
+            background-image: url(../../Assets/Mobile/Equipo.jpeg);
+            justify-content: flex-start;
+
+            &__section{
+                justify-content: flex-start;
+                align-items: center;
+                padding: 0 2rem;
+
+                h1{
+                    width: 90%;
+                    font-size: 28px;
+                }
+
+                p{
+                    width: 90%;
+                }
+            }
+        }
+        &__container2{
+            background-image: url(../../Assets/Mobile/Calidad.jpeg);
+            justify-content: flex-start;
+
+            &__section{
+                justify-content: flex-start;
+                align-items: center;
+                padding: 0 2rem;
+
+                h1{
+                    width: 90%;
+                    font-size: 28px;
+                }
+
+                p{
+                    width: 90%;
+                }
+            }
+        }
+        &__container3{
+            background-image: url(../../Assets/Mobile/Fiables.jpeg);
+            justify-content: flex-start;
+
+            &__section{
+                justify-content: flex-start;
+                align-items: center;
+                padding: 0 2rem;
+
+                h1{
+                    width: 90%;
+                    font-size: 28px;
+                }
+
+                p{
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
