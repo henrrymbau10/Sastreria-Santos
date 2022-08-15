@@ -7,51 +7,138 @@ import dressmaker from "../../Assets/Icons/dressmaker.png"
 import measure from "../../Assets/Icons/measure.png"
 import tailor from "../../Assets/Icons/tailor.png"
 import tailoring from "../../Assets/Icons/tailoring.png"
+import { motion } from "framer-motion"
 
 
 export const Servicios = () => {
+
+    const textAnimateAppear = {
+        offscreen: { x: 0, opacity: 0 },
+        onscreen: {
+            x: 0,
+            opacity: 1,
+            transition: {
+                type: "spring",
+                bounce: 0.4,
+                duration: 7
+            }
+        }
+    }
+
     return (
         <div className="servicios">
             <div className="servicios__container">
                 <div className="servicios__container__tittle">
-                    <h1>Nuestros Servicios</h1>
+                    <motion.h1
+                        initial={"offscreen"}
+                        whileInView={"onscreen"}
+                        viewport={{ once: false, amount: 0.2 }}
+                        variants={textAnimateAppear}>Nuestros Servicios</motion.h1>
                 </div>
                 <div className="servicios__container__general">
                     <div className="servicios__container__general__individual">
-                        <img src={clothing} alt="ropa" />
-                        <p>Acortar / Ajustar la cintura</p>
+                        <motion.img
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear} src={clothing} alt="ropa" />
+                        <motion.p
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
-                        <img src={jeans} alt="ropa" />
-                        <p>Acortar / Ajustar la cintura</p>
+                        <motion.img
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear} src={jeans} alt="ropa" />
+                        <motion.p
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
-                        <img src={iron} alt="ropa" />
-                        <p>Acortar / Ajustar la cintura</p>
+                        <motion.img
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear} src={iron} alt="ropa" />
+                        <motion.p
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
-                        <img src={dressmaker} alt="ropa" />
-                        <p>Acortar / Ajustar la cintura</p>
+                        <motion.img
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear} src={dressmaker} alt="ropa" />
+                        <motion.p
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
-                        <img src={measure} alt="ropa" />
-                        <p>Acortar / Ajustar la cintura</p>
+                        <motion.img
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear} src={measure} alt="ropa" />
+                        <motion.p
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
-                        <img src={tailor} alt="ropa" />
-                        <p>Acortar / Ajustar la cintura</p>
+                        <motion.img
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear} src={tailor} alt="ropa" />
+                        <motion.p
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
-                        <img src={tailoring} alt="ropa" />
-                        <p>Acortar / Ajustar la cintura</p>
+                        <motion.img
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear} src={tailoring} alt="ropa" />
+                        <motion.p
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
-                        <img src={clothing} alt="ropa" />
-                        <p>Acortar / Ajustar la cintura</p>
+                        <motion.img
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear} src={clothing} alt="ropa" />
+                        <motion.p
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
                     </div>
                 </div>
                 <div className="servicios__container__button">
-                    <button>Descarga Nuestro Catalago</button>
+                    <motion.button
+                        initial={"offscreen"}
+                        whileInView={"onscreen"}
+                        viewport={{ once: false, amount: 0.2 }}
+                        variants={textAnimateAppear}>Descarga Nuestro Catalago</motion.button>
                 </div>
             </div>
         </div>

@@ -25,8 +25,8 @@ export const Navbar = () => {
                 <div className="navbar__container__list">
                     <li onClick={() => scrollTo(".servicios")}>SERVICIOS</li>
                     <li onClick={() => scrollTo(".about")}>NOSOTROS</li>
-                    <li>CONTACTANOS</li>
-                    <li>UBICACION</li>
+                    <li>CONTÁCTANOS</li>
+                    <li>UBICACIÓN</li>
                     <button>PIDE TU CITA</button>
                 </div>
                 <div className="navbar__container__mobile">
@@ -40,8 +40,8 @@ export const Navbar = () => {
                         </MobileIcon2>
                         <p onClick={() => { scrollTo(('.servicios')); setShowMobileMenu(!showMobileMenu) }}>SERVICIOS</p>
                         <p onClick={() => { scrollTo(('.about')); setShowMobileMenu(!showMobileMenu) }}>NOSOTROS</p>
-                        <p onClick={() => { scrollTo(('.itinerary')); setShowMobileMenu(!showMobileMenu) }}>CONTACTANOS</p>
-                        <p onClick={() => { scrollTo(('.informacion-title')); setShowMobileMenu(!showMobileMenu) }}>UBICACION</p>
+                        <p onClick={() => { scrollTo(('.itinerary')); setShowMobileMenu(!showMobileMenu) }}>CONTÁCTANOS</p>
+                        <p onClick={() => { scrollTo(('.informacion-title')); setShowMobileMenu(!showMobileMenu) }}>UBICACIÓN</p>
                         <p className="p-menu" onClick={() => { scrollTo(('#entradas')); setShowMobileMenu(!showMobileMenu) }}>PIDE TU CITA</p>
                     </Menu>
                 </div>

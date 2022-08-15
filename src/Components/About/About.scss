@@ -100,6 +100,7 @@
         &__container1{
             background-image: url(../../Assets/Mobile/Equipo.jpeg);
             justify-content: flex-start;
+            background-attachment: inherit;
 
             &__section{
                 justify-content: flex-start;
@@ -119,6 +120,7 @@
         &__container2{
             background-image: url(../../Assets/Mobile/Calidad.jpeg);
             justify-content: flex-start;
+            background-attachment: inherit;
 
             &__section{
                 justify-content: flex-start;
@@ -138,6 +140,7 @@
         &__container3{
             background-image: url(../../Assets/Mobile/Fiables.jpeg);
             justify-content: flex-start;
+            background-attachment: inherit;
 
             &__section{
                 justify-content: flex-start;

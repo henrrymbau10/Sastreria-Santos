@@ -21,22 +21,46 @@
 
     &__container{
         background-color: white;
-        height: 40vh;
+        height: 100%;
         display: flex;
+        justify-content: space-between;
+
+        &__map{
+            width: 33%;
+        }
 
         &__meet{
-            h1{
-                padding-left: 2rem;
-            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 33%;
+
             &__individual{
                 display: flex;
-                padding: 2rem;
+                padding: 1rem 0;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p{
+                    text-align: left;
+                }
 
                 svg{
-                    color: red;
-                    margin-right: 2rem;
+                    color: #54C4CC;
+                    margin-left: 1rem;
+                    margin-bottom: 1rem;
                 }
             }
+        }
+
+        &__pitch{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 8%;
+            width: 33%;
         }
     }
 }

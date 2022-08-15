@@ -37,6 +37,11 @@
                 background: transparent;
                 margin-top: 2rem;
                 border: 1px solid black;
+
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
             }
         }
     }
@@ -47,6 +52,7 @@
 
             &__left {
                 width: 100%;
+                display: none;
             }
 
             &__right{

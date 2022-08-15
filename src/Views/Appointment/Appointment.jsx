@@ -14,10 +14,10 @@ export const Appointment = () => {
             </div>
             <div className="appointment__container">
                 <div className="appointment__container__map">
-
+                    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1v-giAwKkvFdTHx3mWvd5vrkjhf8OjqY&ehbc=2E312F" width="100%" height="100%"></iframe>
                 </div>
                 <div className="appointment__container__meet">
-                    <h1>Conocenos</h1>
+                    <h1>Contáctanos</h1>
                     <div className="appointment__container__meet__individual">
                         <AiOutlinePhone />
                         <p>+34 777 777 777</p>
