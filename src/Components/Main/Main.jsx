@@ -37,7 +37,7 @@ export const Main = () => {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimateAppear}>Nuestro equipo tiene una experiencia combinada de más de 10 años. Desde el aprendiz de sastre, pasando por el jefe de taller, hasta el maestro sastre, nuestro equipo tiene los conocimientos necesarios para ayudarle a lucir bien.</motion.p>
+                        variants={textAnimateAppear}>En Sastrería Santos queremos facilitar que todo el mundo pueda mostrar su ropa con el cariño que se merece. Lo hacemos a través de la alteración y reparación de la ropa. Esto da a los consumidores la oportunidad de llevar y amar la ropa que es exclusivamente suya. También permite a los consumidores amar su ropa durante más tiempo.</motion.p>
                     <motion.button
                         initial={"offscreen"}
                         whileInView={"onscreen"}

@@ -10,6 +10,14 @@
 	src: url(./Assets/Fonts/playfair-display/PlayfairDisplay-Regular.otf);
   }
 
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
 * {
 	margin: 0;
 	padding: 0;

@@ -138,7 +138,7 @@ export const Servicios = () => {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimateAppear}>Descarga Nuestro Catalago</motion.button>
+                        variants={textAnimateAppear}>Descarga Nuestro Catálago</motion.button>
                 </div>
             </div>
         </div>

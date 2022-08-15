@@ -30,7 +30,7 @@ export const Us = () => {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimateAppear}>¿POR QUE NOSOTROS?</motion.h1>
+                        variants={textAnimateAppear}>¿POR QUÉ NOSOTROS?</motion.h1>
                     <motion.p
                         initial={"offscreen"}
                         whileInView={"onscreen"}
@@ -41,7 +41,7 @@ export const Us = () => {
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>CONTACTANOS</motion.button>
+                            variants={textAnimateAppear}>CONTÁCTANOS</motion.button>
                     </Link>
                 </div>
             </div>

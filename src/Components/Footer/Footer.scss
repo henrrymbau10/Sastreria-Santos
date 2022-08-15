@@ -54,6 +54,11 @@
     @media screen and (min-width: 300px) and (max-width:859px){
         &__container{
            &__contact{
+
+            h2{
+                width: 80%;
+            }
+
             form{
                 display: flex;
                 flex-direction: column;
