@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import "./Footer.scss"
-import logo from "../../Assets/Icons/Consuelo-Logo4-AV.svg"
+import logo from "../../Assets/Icons/Logo-MaqCos-Black.svg"
 import emailjs from '@emailjs/browser';
 import { motion } from "framer-motion"
 

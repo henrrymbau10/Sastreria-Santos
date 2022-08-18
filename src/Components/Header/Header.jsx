@@ -20,6 +20,11 @@ export const Header = () => {
         }
     }
 
+    const scrollTo = (nodeSelector) => {
+        const domNode = document.querySelector(nodeSelector)
+        window.scrollTo?.({ top: domNode.offsetTop, behavior: 'smooth' });
+    }
+
     return (
         <div className="header">
             <Navbar />
@@ -35,6 +40,7 @@ export const Header = () => {
                     viewport={{ once: false, amount: 0.2 }}
                     variants={textAnimateAppear}>Arreglos y Confección</motion.h1>
                 <motion.button
+                    onClick={() => scrollTo(".servicios")}
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.2 }}

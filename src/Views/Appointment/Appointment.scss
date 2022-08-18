@@ -1,66 +1,131 @@
 .appointment{
-    background-image: url(../../Assets/Desktop/Citabg.jpeg);
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    &__header{
-        display: flex;
-        justify-content: center;
-        color: white;
-        display: flex;
-        align-items: center;
-        height: 40vh;
-
-        h1{
-            font-size: 50px;
-            text-align: center;
-            padding-bottom: 3rem;
-        }
-    }
-
     &__container{
-        background-color: white;
-        height: 100%;
-        display: flex;
-        justify-content: space-between;
+        background-image: url(../../Assets/Desktop/Citabg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
 
-        &__map{
-            width: 33%;
-        }
-
-        &__meet{
+        &__general{
             display: flex;
-            flex-direction: column;
-            justify-content: center;
             align-items: center;
-            width: 33%;
-
-            &__individual{
+            padding-bottom: 3rem;
+            color: white;
+    
+            &__left{
+                width: 40%;
                 display: flex;
-                padding: 1rem 0;
+                justify-content: center;
+                img{
+                    height: 200px;
+                    width: 200px;
+                    border-radius: 50%;object-fit: cover;
+                }
+            }
+    
+            &__right{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
-                p{
+                width: 60%;
+    
+                h1{
+                    width: 100%;
                     text-align: left;
+                    padding-bottom: 2rem;
                 }
+    
+                button{
+                    margin-top: 1rem;
+                    padding: 1rem 2rem;
+                    background-color: white;
+                    color: black;
+                    border: 1px solid white;
+    
+                    &:hover{
+                        background: transparent;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
 
-                svg{
-                    color: #54C4CC;
-                    margin-left: 1rem;
-                    margin-bottom: 1rem;
+    &__contacto{
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            text-align: center;
+        }
+
+        &__icons{
+            display: flex;
+            padding: 2rem 0;
+            width: 100%;
+            justify-content: space-evenly;
+            &__individual{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+
+    &__form{
+        form{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            input{
+                width: 40%;
+                background-color: #F6F7F7;
+                padding: 1rem 0 1rem 1rem ;
+                margin: 1rem .5rem;
+            }
+
+            .btn-contact{
+                padding: 1rem 2rem;
+                background-color: black;
+                color: white;
+                border: 1px solid black;
+
+                &:hover{
+                    background: transparent;
+                    color: black;
+
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width:859px){
+        &__container{
+            &__general{
+                flex-direction: column;
+                &__left{
+                    img{
+                        margin-bottom: 2rem;
+                    }
                 }
             }
         }
 
-        &__pitch{
+        &__form{
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            padding-left: 8%;
-            width: 33%;
+            align-items: center;
+            form{
+
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+
+                input{
+                    width: 80%;
+                }
+            }
         }
     }
 }

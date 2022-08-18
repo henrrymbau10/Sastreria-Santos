@@ -17,19 +17,6 @@ export const About = () => {
         }
     }
 
-    const textAnimateL = {
-        offscreen: { x: 100, opacity: 0 },
-        onscreen: {
-            x: 0,
-            opacity: 1,
-            transition: {
-                type: "spring",
-                bounce: 0.4,
-                duration: 2.5
-            }
-        }
-    }
-
     return (
         <div className="about">
             <div className="about__container1">
@@ -52,12 +39,12 @@ export const About = () => {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimateL}>CENTRADOS EN LA CALIDAD</motion.h1>
+                        variants={textAnimate}>CENTRADOS EN LA CALIDAD</motion.h1>
                     <motion.p
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimateL}>La calidad, el valor y el servicio es nuestro principal objetivo y es la base de nuestra empresa. Nos tomamos nuestro tiempo y lo hacemos bien.</motion.p>
+                        variants={textAnimate}>La calidad, el valor y el servicio es nuestro principal objetivo y es la base de nuestra empresa. Nos tomamos nuestro tiempo y lo hacemos bien.</motion.p>
                 </div>
             </div>
             <div className="about__container3">

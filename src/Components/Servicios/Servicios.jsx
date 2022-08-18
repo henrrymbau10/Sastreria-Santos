@@ -8,6 +8,7 @@ import measure from "../../Assets/Icons/measure.png"
 import tailor from "../../Assets/Icons/tailor.png"
 import tailoring from "../../Assets/Icons/tailoring.png"
 import { motion } from "framer-motion"
+import { Link } from "react-router-dom"
 
 
 export const Servicios = () => {
@@ -46,7 +47,7 @@ export const Servicios = () => {
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
+                            variants={textAnimateAppear}>CONFECCION DE PRENDAS</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
                         <motion.img
@@ -58,19 +59,7 @@ export const Servicios = () => {
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
-                    </div>
-                    <div className="servicios__container__general__individual">
-                        <motion.img
-                            initial={"offscreen"}
-                            whileInView={"onscreen"}
-                            viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear} src={iron} alt="ropa" />
-                        <motion.p
-                            initial={"offscreen"}
-                            whileInView={"onscreen"}
-                            viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
+                            variants={textAnimateAppear}>METER TRASERA VAQUERO</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
                         <motion.img
@@ -82,7 +71,7 @@ export const Servicios = () => {
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
+                            variants={textAnimateAppear}>PONER CREMALLERA</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
                         <motion.img
@@ -94,7 +83,7 @@ export const Servicios = () => {
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
+                            variants={textAnimateAppear}>BAJO CON ABERTURA Y FORRO</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
                         <motion.img
@@ -106,7 +95,7 @@ export const Servicios = () => {
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
+                            variants={textAnimateAppear}>BAJAR CINTURILLA</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
                         <motion.img
@@ -118,27 +107,29 @@ export const Servicios = () => {
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
+                            variants={textAnimateAppear}>SUBIR BAJO A MANO</motion.p>
                     </div>
                     <div className="servicios__container__general__individual">
                         <motion.img
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear} src={clothing} alt="ropa" />
+                            variants={textAnimateAppear} src={iron} alt="ropa" />
                         <motion.p
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.2 }}
-                            variants={textAnimateAppear}>Acortar / Ajustar la cintura</motion.p>
+                            variants={textAnimateAppear}>OTROS</motion.p>
                     </div>
                 </div>
                 <div className="servicios__container__button">
-                    <motion.button
-                        initial={"offscreen"}
-                        whileInView={"onscreen"}
-                        viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimateAppear}>Descarga Nuestro Catálago</motion.button>
+                    <Link to="/precios">
+                        <motion.button
+                            initial={"offscreen"}
+                            whileInView={"onscreen"}
+                            viewport={{ once: false, amount: 0.2 }}
+                            variants={textAnimateAppear}>VER TODOS LOS SERVICIOS</motion.button>
+                    </Link>
                 </div>
             </div>
         </div>
