@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Precios.scss"
 import precios from "../../Assets/Desktop/Sastreria Santos - Precios.pdf"
+import { Link } from "react-router-dom"
 
 export const Precios = () => {
     return (
@@ -13,7 +14,7 @@ export const Precios = () => {
                     <div className="precios__container__precios__left">
                         <h2>Pantalones</h2>
                         <div className="precios__container__precios__left__individual">
-                            <p>SUBIR BAJO A MAQUINA</p>
+                            <p>SUBIR BAJO A MÁQUINA</p>
                             <p>4€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -73,7 +74,7 @@ export const Precios = () => {
                             <p>7€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>PONER CUCHILLA VAUQERO CON CURCID©</p>
+                            <p>PONER CUCHILLA VAQUERO CON CURCIDO</p>
                             <p>10€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -93,7 +94,7 @@ export const Precios = () => {
                             <p>14€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>METER CUATRO COSTADOS DE VAQUER©</p>
+                            <p>METER CUATRO COSTADOS DE VAQUERO</p>
                             <p>12€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -112,7 +113,7 @@ export const Precios = () => {
                     <div className="precios__container__precios__left">
                         <h2>Falda</h2>
                         <div className="precios__container__precios__left__individual">
-                            <p>SUBIR BAJO A MAQUINA</p>
+                            <p>SUBIR BAJO A MÁQUINA</p>
                             <p>6€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -164,7 +165,7 @@ export const Precios = () => {
                             <p>10€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>BAJ© CON VUEL©</p>
+                            <p>BAJO CON VUELO</p>
                             <p>10€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -183,7 +184,7 @@ export const Precios = () => {
                     <div className="precios__container__precios__left">
                         <h2>Vestido</h2>
                         <div className="precios__container__precios__left__individual">
-                            <p>BAJO A MAQUINA</p>
+                            <p>BAJO A MÁQUINA</p>
                             <p>6€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -191,7 +192,7 @@ export const Precios = () => {
                             <p>8€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>PONER CREMALIERA</p>
+                            <p>PONER CREMALLERA</p>
                             <p>8€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -242,7 +243,7 @@ export const Precios = () => {
                     <div className="precios__container__precios__left">
                         <h2>Blusa y camisa</h2>
                         <div className="precios__container__precios__left__individual">
-                            <p>SUBIR BAJO A MAQUINA</p>
+                            <p>SUBIR BAJO A MÁQUINA</p>
                             <p>6€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -254,7 +255,7 @@ export const Precios = () => {
                             <p>6€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>SUBIR MANGA A MAQUINA</p>
+                            <p>SUBIR MANGA A MÁQUINA</p>
                             <p>5€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -278,11 +279,11 @@ export const Precios = () => {
                             <p>6€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>SUBIR PUNOS</p>
+                            <p>SUBIR PUÑOS</p>
                             <p>6€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>SUBIR PUNOS CON PRESILLA</p>
+                            <p>SUBIR PUÑOS CON PRESILLA</p>
                             <p>10€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -305,7 +306,7 @@ export const Precios = () => {
                             <p>15€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>DOS COSTAD©</p>
+                            <p>DOS COSTADO</p>
                             <p>15€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -328,7 +329,7 @@ export const Precios = () => {
                     <div className="precios__container__precios__left">
                         <h2>Abrigo</h2>
                         <div className="precios__container__precios__left__individual">
-                            <p>SUBIR BAJO A MAQUINA</p>
+                            <p>SUBIR BAJO A MÁQUINA</p>
                             <p>12€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -352,7 +353,7 @@ export const Precios = () => {
                             <p>20€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>JUBIR MANGA</p>
+                            <p>SUBIR MANGA</p>
                             <p>12€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -363,7 +364,7 @@ export const Precios = () => {
                     <div className="precios__container__precios__left">
                         <h2>Camiseta y Polo</h2>
                         <div className="precios__container__precios__left__individual">
-                            <p>BAJO A MAQUINA</p>
+                            <p>BAJO A MÁQUINA</p>
                             <p>5€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
@@ -386,24 +387,24 @@ export const Precios = () => {
                     <div className="precios__container__precios__left">
                         <h2>Otros</h2>
                         <div className="precios__container__precios__left__individual">
-                            <p>COSER POR METRO LINEAL DOBLADILLOY DESPUNTE</p>
+                            <p>COSER POR METRO LINEAL DOBLADILLO Y DESPUNTE</p>
                             <p>2€</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>CPNFECCION DE TODO <br></br> TIPO DE PRENDA DE VESTIR</p>
-                            <p>Consultanos</p>
+                            <p>CONFECCIÓN DE TODO <br></br> TIPO DE PRENDA DE VESTIR</p>
+                            <p>Consúltanos</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>CONFECCION DE CORTINA/MANTEL</p>
-                            <p>Consultanos</p>
+                            <p>CONFECCIÓN DE CORTINA/MANTEL</p>
+                            <p>Consúltanos</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>CONFECCION DE BISILLO/ALMOHADAS</p>
-                            <p>Consultanos</p>
+                            <p>CONFECCIÓN DE BISILLO/ALMOHADAS</p>
+                            <p>Consúltanos</p>
                         </div>
                         <div className="precios__container__precios__left__individual">
-                            <p>CONFECCION DE SOFAS/DELANTALES Y MAS</p>
-                            <p>Consultanos</p>
+                            <p>CONFECCIÓN DE SOFAS/DELANTALES Y MÁS</p>
+                            <p>Consúltanos</p>
                         </div>
                     </div>
                 </div>
@@ -411,6 +412,9 @@ export const Precios = () => {
                     <a href={precios} download>
                         <button>Descargar PDF</button>
                     </a>
+                    <Link to="/cita">
+                        <button>PIDE TU CITA</button>
+                    </Link>
                 </div>
             </div>
         </div>

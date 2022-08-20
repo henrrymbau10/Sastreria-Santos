@@ -69,11 +69,22 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
             }
         }
     }
 
     &__form{
+
+        p{
+            text-align: center;
+            padding-top: 1rem;
+        }
+
         form{
             display: flex;
             justify-content: space-around;
@@ -90,6 +101,7 @@
                 background-color: black;
                 color: white;
                 border: 1px solid black;
+                cursor: pointer;
 
                 &:hover{
                     background: transparent;

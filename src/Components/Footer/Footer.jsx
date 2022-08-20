@@ -11,7 +11,7 @@ export const Footer = () => {
 
     const sendEmail = (event) => {
         event.preventDefault();
-        emailjs.sendForm('service_hyzssx8', 'template_u5s1d1k', form.current, 'bnQweKR5uLmYM447e')
+        emailjs.sendForm('service_fxxq3je', 'template_u5s1d1k', form.current, 'bnQweKR5uLmYM447e')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

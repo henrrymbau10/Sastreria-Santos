@@ -13,7 +13,7 @@ export const Appointment = () => {
 
     const sendEmail = (event) => {
         event.preventDefault();
-        emailjs.sendForm('service_hyzssx8', 'template_u5s1d1k', form.current, 'bnQweKR5uLmYM447e')
+        emailjs.sendForm('service_fxxq3je', 'template_u5s1d1k', form.current, 'bnQweKR5uLmYM447e')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -71,12 +71,14 @@ export const Appointment = () => {
                             initial={"offscreen"}
                             whileInView={"onscreen"}
                             viewport={{ once: false, amount: 0.5 }}
-                            variants={textAnimateL}>¿No encuntras lo que necesitas entre nuestros servicios? ¿Tienes algo en mente que sea mas personalizado? ¡Estas a tan solo un par de clicks de que podamos ponernos manos a la obra!</motion.p>
-                        <motion.button
-                            initial={"offscreen"}
-                            whileInView={"onscreen"}
-                            viewport={{ once: false, amount: 0.5 }}
-                            variants={textAnimateL}>Contactar</motion.button>
+                            variants={textAnimateL}>¿No encuntras lo que necesitas entre nuestros servicios? ¿Tienes algo en mente que sea más personalizado? ¡Estás a tan solo un par de clicks de que podamos ponernos manos a la obra!</motion.p>
+                        <a href="https://api.whatsapp.com/send?phone=34699373874&text=Hola%20Muy%20Buenas!%20Estoy%20interesad@%20en%20un%20servicio!" target="_blank" rel="noreferrer">
+                            <motion.button
+                                initial={"offscreen"}
+                                whileInView={"onscreen"}
+                                viewport={{ once: false, amount: 0.5 }}
+                                variants={textAnimateL}>Contactar</motion.button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -85,7 +87,9 @@ export const Appointment = () => {
                 <div className="appointment__contacto__icons">
                     <div className="appointment__contacto__icons__individual">
                         <AiOutlineWhatsApp />
-                        <p>+34 666 666 666</p>
+                        <a href="https://api.whatsapp.com/send?phone=34699373874&text=Hola%20Muy%20Buenas!%20Estoy%20interesad@%20en%20un%20servicio!" target="_blank" rel="noreferrer">
+                            <p>+34 699 373 874</p>
+                        </a>
                     </div>
                     <div className="appointment__contacto__icons__individual">
                         <AiOutlineMail />
