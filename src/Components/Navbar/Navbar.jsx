@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Navbar.scss"
-import logo from "../../Assets/Icons/Logo-MaqCos-White.svg"
+import logo from "../../Assets/Icons/Logo-MaqCos-red.svg"
 import { Menu, MobileIcon, MobileIcon2 } from './NabvarItem';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from "react-router-dom"

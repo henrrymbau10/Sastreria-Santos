@@ -134,6 +134,20 @@
                 align-items: center;
                 width: 100%;
 
+                .btn-contact{
+                    padding: 1rem 2rem;
+                    background-color: black;
+                    color: white;
+                    border: 1px solid black;
+                    cursor: pointer;
+    
+                    &:hover{
+                        background: transparent;
+                        color: black;
+    
+                    }
+                }
+
                 input{
                     width: 80%;
                 }

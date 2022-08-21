@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import "./Footer.scss"
-import logo from "../../Assets/Icons/Logo-MaqCos-Black.svg"
+import logo from "../../Assets/Icons/Logo-MaqCos-red.svg"
 import emailjs from '@emailjs/browser';
 import { motion } from "framer-motion"
 
@@ -11,7 +11,7 @@ export const Footer = () => {
 
     const sendEmail = (event) => {
         event.preventDefault();
-        emailjs.sendForm('service_fxxq3je', 'template_u5s1d1k', form.current, 'bnQweKR5uLmYM447e')
+        emailjs.sendForm('service_fxxq3je', 'template_lzg8v9p', form.current, 'bnQweKR5uLmYM447e')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

@@ -13,7 +13,7 @@ export const Appointment = () => {
 
     const sendEmail = (event) => {
         event.preventDefault();
-        emailjs.sendForm('service_fxxq3je', 'template_u5s1d1k', form.current, 'bnQweKR5uLmYM447e')
+        emailjs.sendForm('service_fxxq3je', 'template_lzg8v9p', form.current, 'bnQweKR5uLmYM447e')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -93,7 +93,9 @@ export const Appointment = () => {
                     </div>
                     <div className="appointment__contacto__icons__individual">
                         <AiOutlineMail />
-                        <p>mail@mail.com</p>
+                        <a class="mailto" href="mailto:conlisa2000@hotmail.com" target="_blank" rel="noreferrer">
+                            <p>conlisa2000@hotmail.com</p>
+                        </a>
                     </div>
                 </div>
             </div>
