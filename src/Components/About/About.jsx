@@ -44,7 +44,7 @@ export const About = () => {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimate}>La calidad, el valor y el servicio es nuestro principal objetivo y es la base de nuestra empresa. Nos tomamos nuestro tiempo y lo hacemos bien.</motion.p>
+                        variants={textAnimate}>La calidad y el servicio es nuestro principal objetivo y es la base de nuestra empresa. Nos tomamos nuestro tiempo y lo hacemos bien.</motion.p>
                 </div>
             </div>
             <div className="about__container3">
