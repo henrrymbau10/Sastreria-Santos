@@ -30,7 +30,7 @@ export const About = () => {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimate}>Nuestro equipo tiene una experiencia combinada de más de 10 años. Desde el aprendiz de sastre, pasando por el jefe de taller, hasta el maestro sastre, nuestro equipo tiene los conocimientos necesarios para ayudarle a lucir bien.</motion.p>
+                        variants={textAnimate}>Contamos con una experiencia de más de 15 años en el sector textil, satisfaciendo las necesidades de nuestros clientes, con un equipo de trabajo comprometido a ayudarle a lucir bien.</motion.p>
                 </div>
             </div>
             <div className="about__container2">
@@ -58,7 +58,7 @@ export const About = () => {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimate}>Llevamos mucho tiempo en el mercado y tenemos la intención de seguir haciéndolo. Siempre estamos accesibles para nuestros clientes por teléfono, mensajes y correo electrónico. </motion.p>
+                        variants={textAnimate}>En Sastrería Santos, tenemos a su disposición un equipo de colaboradores altamente cualificados para asesorarle y guiarle en sus dudas e inquietudes, aportando ideas y soluciones para que el arreglo de sus prendas sea el mejor. </motion.p>
                 </div>
             </div>
         </div>

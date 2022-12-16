@@ -29,16 +29,11 @@ export const Header = () => {
         <div className="header">
             <Navbar />
             <div className="header__container">
-                <motion.p
-                    initial={"offscreen"}
-                    whileInView={"onscreen"}
-                    viewport={{ once: false, amount: 0.2 }}
-                    variants={textAnimateAppear}>SASTRERÍA SANTOS</motion.p>
                 <motion.h1
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     viewport={{ once: false, amount: 0.2 }}
-                    variants={textAnimateAppear}>Arreglos y Confección</motion.h1>
+                    variants={textAnimateAppear}>Arreglos y Confección <br></br> Santos</motion.h1>
                 <motion.button
                     onClick={() => scrollTo(".servicios")}
                     initial={"offscreen"}

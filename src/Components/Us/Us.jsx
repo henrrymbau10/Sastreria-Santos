@@ -35,7 +35,7 @@ export const Us = () => {
                         initial={"offscreen"}
                         whileInView={"onscreen"}
                         viewport={{ once: false, amount: 0.2 }}
-                        variants={textAnimateAppear}>Utilizando las mejores prácticas de sastrería y cumpliendo los más altos estándares de calidad en la confección. Nos centramos en la calidad. No somos los más baratos, pero sí los mejores.</motion.p>
+                        variants={textAnimateAppear}>Porque estamos a sus disposición para servirles en el menor tiempo posible, siempre con la mejor disposición y un buen trato a ustedes como clientes que son el valor que son el valor agregado más importante para la empresa.</motion.p>
                     <Link to="/cita">
                         <motion.button
                             initial={"offscreen"}
